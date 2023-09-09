@@ -1,0 +1,18 @@
+{
+  "name": "merkly-warmup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-typechain": "typechain --target ethers-v5 --out-dir typechain '**/*.abi.json'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typechain/ethers-v5": "^10.2.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.6.2"
+  }
+}
